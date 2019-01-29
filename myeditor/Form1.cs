@@ -28,11 +28,10 @@ namespace myeditor
                 string path = openFileDialog1.FileName; // Path will equal filepath to selected file
                 System.IO.StreamReader sr = new System.IO.StreamReader(path);
                 rtb.Text = sr.ReadToEnd();
-                rtb.SaveFile;
                 // Works but cannot save
                 // Figure out how to add a "save" button.
 
-                //MessageBox.Show(path);
+                //MessageBox.Show(path); 
             }
         }
 
